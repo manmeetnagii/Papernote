@@ -2,9 +2,9 @@
 
 import { useTheme } from "next-themes";
 
-import { BlockNoteEditor, PartialBlock } from "@blocknote/core";
+import { BlockConfig, BlockNoteEditor, PartialBlock } from "@blocknote/core";
 
-import { useCreateBlockNote } from "@blocknote/react";
+import { useBlockNote, useCreateBlockNote } from "@blocknote/react";
 
 import { BlockNoteView } from "@blocknote/mantine";
 import "@blocknote/mantine/style.css";
@@ -27,9 +27,9 @@ const Editor = ({ onChange, initialContent, editable }: EditorProps) => {
     return response.url;
   };
 
-  const editor : BlockNoteEditor = useCreateBlockNote({
+  const editor = useCreateBlockNote({
     editable,
-    initialContent: initialContent
+    content: initialContent
       ? JSON.parse(initialContent) as PartialBlock[]
       : undefined,
     onChange: (editor) => {
