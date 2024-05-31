@@ -7,6 +7,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Next.js-blue)
 
+![Static Badge](https://img.shields.io/badge/Typescript-red)
+
 ![Static Badge](https://img.shields.io/badge/Clerk_Auth-green)
 
 ![Static Badge](https://img.shields.io/badge/Convex-8A2BE2)
