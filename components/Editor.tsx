@@ -7,6 +7,7 @@ import { BlockNoteEditor, PartialBlock } from "@blocknote/core";
 import { BlockNoteView } from "@blocknote/mantine";
 import "@blocknote/mantine/style.css";
 import { useEdgeStore } from "@/lib/edgestore";
+import { useCreateBlockNote } from "@blocknote/react";
 
 interface EditorProps {
   onChange: (value: string) => void;
