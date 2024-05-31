@@ -11,6 +11,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Clerk_Auth-green)
 
+![Static Badge](https://img.shields.io/badge/Blocknote-blue)
+
 ![Static Badge](https://img.shields.io/badge/Convex-8A2BE2)
 
 ![Static Badge](https://img.shields.io/badge/Tailwind-red)
