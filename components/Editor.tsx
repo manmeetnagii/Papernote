@@ -27,9 +27,8 @@ const Editor = ({ onChange, initialContent, editable }: EditorProps) => {
     return response.url;
   };
 
-  const editor = useCreateBlockNote({
-    editable,
-    content: initialContent
+  const editor : BlockConfig = useCreateBlockNote({
+    initialContent: initialContent
       ? JSON.parse(initialContent) as PartialBlock[]
       : undefined,
     onChange: (editor) => {
